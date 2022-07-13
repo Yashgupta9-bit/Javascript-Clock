@@ -1,0 +1,52 @@
+ #ClockContainer {         /* # = id */
+    /* tino sui dabbe ke according khudko adjust kare */
+    position: relative;
+    /* Pura dabba center me laane ke liye */
+    margin: auto;
+   
+    /* vw = View Port width = responsive*/
+    height: 40vw;
+    width: 40vw;
+    background: url(clock.png) no-repeat;
+    /* ghadi ko beech me lane ke */
+    background-size: 100%;
+}
+
+#hour, #min, #sec {
+    /* absolute se top, rigtt,left se move kr skta hu */
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hour {
+    width: 1%;
+    height: 28%;
+    top: 21%;
+    left: 49.5%;
+    /* display: none; */
+}
+
+#min {
+    width: 0.5%;
+    height: 32%;
+    top: 17%;
+    left: 49.7%;
+    opacity: 0.8;
+    /* display: none; */
+}
+
+#sec {
+    width: 0.5%;
+    height: 35%;
+    top: 14%;
+    left: 49.7%;
+    opacity: 0.8;
+    /* display: none; */
+}
+
+.name {
+    position: absolute;
+    left: 43%;
+}
